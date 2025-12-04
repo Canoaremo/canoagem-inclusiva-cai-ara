@@ -2,12 +2,13 @@ import { useState, useEffect, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import { Waves, Heart, Users, ChevronLeft, ChevronRight } from "lucide-react";
 import heroImage1 from "@/assets/hero-1.jpg";
+import heroImage2 from "@/assets/hero-2.jpg";
+import heroImage3 from "@/assets/hero-3.jpg";
 
 const heroImages = [
   heroImage1,
-  heroImage1, // Placeholder - substitua pela imagem 2
-  heroImage1, // Placeholder - substitua pela imagem 3
-  heroImage1, // Placeholder - substitua pela imagem 4
+  heroImage2,
+  heroImage3,
 ];
 
 export const Hero = () => {
